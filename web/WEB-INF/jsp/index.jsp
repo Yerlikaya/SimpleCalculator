@@ -43,8 +43,8 @@
                                    value2: val2,
                                    operation: oprtn
                                },
-                           function(data, status){
-                                   alert("Data: " + data + "\nStatus: " + status);
+                           function(data){
+                                   $('#result h2').text(data);
                             });
                 });
 				
